@@ -374,6 +374,9 @@ elif lesson == "3":
     print("")
     print(" THANKYOU!")
 
+else:
+    print(" INVALID! PLEASE ENTER 1-3")
+
 a = input(" Just say (D) if your done! :").upper()
 
 if a == "D":
