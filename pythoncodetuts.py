@@ -3,26 +3,27 @@ name = input(" Enter your name: ")
 print("  WELCOME TO PYTHON TUTORIAL!", name)
 print("  Python is easy to learn - You will enjoy it!")
 print("")
-print("="*5, "PYTHON TUTORIAL", "="*5)
-print(" 1.INTRODUCTION TO PROGRAMMING.")  
+print("=" * 5, "PYTHON TUTORIAL", "=" * 5)
+print(" 1.INTRODUCTION TO PROGRAMMING.")
 print("")
 print(" 2.BASIC SYNTAX.")
 print("")
 print(" 3.ARITHMETIC OPERATORS")
 print("")
-print("="*40)
+print("=" * 40)
 
-lesson = input( " Choose a lesson: ")
+lesson = input(" Choose a lesson: ")
 
 if lesson == "1":
     print(" WELCOME TO INTRODUCTION TO PROGRAMMING!!")
-    print("="*10, "WEEK 1", "="*10)
+    print("=" * 10, "WEEK 1", "=" * 10)
     print("")
-    print(" WHAT IS PROGRAMMING LANGUAGE")
+    print("="*5, " PART 1 ", "="*5)
+    print("-- WHAT IS PROGRAMMING LANGUAGE --")
     print("")
     print(" - A programming language is a special language that computers understand and use to perform tasks.")
     print("")
-    print("="*5, "COMMON PROGRAMMING LANGUAGE INCLUDE", "="*5)
+    print("=" * 5, "COMMON PROGRAMMING LANGUAGE INCLUDE", "=" * 5)
     print(" PYTHON - Easy to learn and read. great for beginners, data science, and automation.")
     print(" C/C++ - High performance and efficient. Used in system programming, games, and applications.")
     print(" PHP - Used for web development. Work well with databases and server-side scripting.")
@@ -30,7 +31,8 @@ if lesson == "1":
     print(" JAVASCRIPT - The language of the web. Adds interactivity to websites.")
     print(" RUBY - Known for simplicity and productivity. used in web development.")
     print("")
-    print(" WHAT IS PYHTON PROGRAMMING?")
+    print("="*5, " PART 2", "="*5)
+    print("-- WHAT IS PYHTON PROGRAMMING? --")
     print(" - Pyhton is a widely-used programming language that was created by Guido van Rossum in 1991.")
     print("")
     print(" A dutch software engineer best known for creating the Python programming language in 1991")
@@ -38,14 +40,14 @@ if lesson == "1":
     print(" enough for professional software development.")
     print(" ")
     print(" Pyhton is a high-level, interpreted, and general-purpose programming language designed to be simple, readable, and easy to learn.")
-    print(" ")
-    print(" WHY LEARN PYTHON?")
+    print("")
+    print("-- WHY LEARN PYTHON? --")
     print(" 1. Simple and easy to learn - Great for beginners")
     print(" 2. Readable syntax – Code looks almost like english")
     print(" 3. Versatile – Used in many fields (AI, web, automation, games, etc.)")
     print(" 4. Huge community – Lots of support, tutorials, and libraries")
     print(" ")
-    print(" What do you need to start python programming ?")
+    print("-- What do you need to start python programming? --")
     print("")
     print(" PROFESSIONAL IDES / CODE EDITORS")
     print(" - PyCharm (by JetBrains)")
@@ -55,9 +57,10 @@ if lesson == "1":
     print(" THANKYOU!")
     print("")
 elif lesson == "2":
-    print(" WELCOME TO BASIC SYNTAX!")
+    print("="*5, " PART 1", "="*5)
+    print("-- WELCOME TO BASIC SYNTAX! --")
     print("")
-    print(" WHAT IS PYHTON SYNTAX")
+    print("-- WHAT IS PYHTON SYNTAX --")
     print("")
     print(" - Syntax refers to the set of rules that tells us how to correctly write a program in Python.")
     print("")
@@ -80,9 +83,10 @@ elif lesson == "2":
     print(" if age >= 18:")
     print(" print(\"Adult\") <-- Not Indentent (outside the block)")
     print("")
-    print("="*5, " PRINTING OUTPUT", "="*5)
+    print("="*5, " PART 2", "="*5)
+    print("=" * 5, " PRINTING OUTPUT", "=" * 5)
     print("")
-    print("="*5, " PRINT STATEMENT", "="*5)
+    print("=" * 5, " PRINT STATEMENT", "=" * 5)
     print("")
     print(" - The print() function displays information on the screen.")
     print(" Syntax: print(value)")
@@ -90,14 +94,14 @@ elif lesson == "2":
     print(" () – parentheses that contain the information to be displayed")
     print(" value – the text, number, variable, or expression you want to show.")
     print("")
-    print("="*5," PRINTING TEXT", "="*5)
+    print("=" * 5, " PRINTING TEXT", "=" * 5)
     print(" - Text (also called a string) must be enclosed in quotation marks.")
     print(" print(\"HELLO WORLD\") <-- CORRECT SYNTAX")
     print(" - Uses double quotes inside the parentheses.")
     print(" print(HELLO WORLD) <-- INCORRECT SYNTAX")
     print(" - Missing quotes around the text.")
     print("")
-    print("="*5, "PRINTING NUMBERS", "="*5)
+    print("=" * 5, "PRINTING NUMBERS", "=" * 5)
     print(" - You can print numbers directly without quotation marks.")
     print(" EX: (CORRECT)")
     print(" print(100) OUTPUT -> 100")
@@ -110,7 +114,8 @@ elif lesson == "2":
     print(" String(str)")
     print(" - Values inside quotes are text(strings). Output looks the same, but they are treated as text(strings) in pyhton.")
     print("")
-    print("="*5, "PYHTON COMMENTS", "="*5)
+    print("="*5, "PART 3", "="*5)
+    print("=" * 5, "PYHTON COMMENTS", "=" * 5)
     print(" - Comments are ignored by Python.")
     print(" - They are used to explain the code.")
     print("==", "SINGLE-LINE COMMENT", "==")
@@ -127,14 +132,15 @@ elif lesson == "2":
     print(" print(\"HELLO\")")
     print(" \"\"\" - Uses triple quotes(\"\"\") Comment continous until the closing \"\"\".  ")
     print("")
-    print("="*3, "VARIABLES, CONSTANTS, AND DATA TYPES IN PYHTON", "="*3)
+    print("="*5, "PART 4", "="*5)
+    print("=" * 3, "VARIABLES, CONSTANTS, AND DATA TYPES IN PYHTON", "=" * 3)
     print(" 1. WHAT IS A VARIABLE?")
     print(" - A variable is a named storage location used to keep data in a program. The value of a variable can change while the program is running.")
     print("EX: a, b, c, name, age")
     print("     name --> VARIABLE NAME")
     print("    \"JOHN\" --> STORED VALUE")
     print("")
-    print("="*5, " VARIABLE NAMING RULES", "="*5)
+    print("=" * 5, " VARIABLE NAMING RULES", "=" * 5)
     print(" A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).")
     print("=", " SHORT NAME", "=")
     print(" - Are quick to type and often used in simple programs or inside loops")
@@ -170,15 +176,17 @@ elif lesson == "2":
     print(" #number -> Cannot use special characters like #, ., @")
     print(" num ber -> Cannot use spaces")
     print("")
-    print("="*3, "ASSIGNED VALUE TO VARIABLE", "="*3)
-    print(" - In programming, we store data in variables. We assign a value to a variable using the = (assignment operator).")
+    print("=" * 3, "ASSIGNED VALUE TO VARIABLE", "=" * 3)
+    print(
+        " - In programming, we store data in variables. We assign a value to a variable using the = (assignment operator).")
     print(" first_name -> VARIABLE NAME")
     print(" - the name we choose to represent the data (follows naming rules)")
     print(" (=) - ASSIGNMENT OPERATOR")
     print(" \"JOHN\" -> VALUE")
     print(" - The we store in the variable (can be text, number, etc.)")
     print("")
-    print("="*3, "OUTPUT VARIABLES ", "="*3)
+    print("="*5, "PART 5", "="*5)
+    print("=" * 3, "OUTPUT VARIABLES ", "=" * 3)
     print(" - The Python print() function is often used to output variables.")
     print(" EX: school = \" CLARK COLLEGE \" ")
     print(" - We stores the text CLARK COLLEGE in a variable named school.")
@@ -200,7 +208,8 @@ elif lesson == "2":
     print(" print(a + b + c) -> add the values of a, b, and c and display the result")
     print(" OUTPUT: I LOVE CCST")
     print("")
-    print("="*5, "DATA TYPES", "="*5)
+    print("="*5, "PART 6", "="*5)
+    print("=" * 5, "DATA TYPES", "=" * 5)
     print(" - Data types are categories that tell Python what kind of data a variable stores.")
     print(" They determine the type of value a variable can hold and what operations can be performed on that value.")
     print(" Int (Integer numbers)")
@@ -214,7 +223,8 @@ elif lesson == "2":
     print(" EACH DATA TYPE STORES DIFFERENT KIND OF VALUES ")
     print(" CHOOSING THE RIGHT TYPE HELPS YOUR PROGRAM WORK CORRECTLY!!")
     print("")
-    print("="*3, "DECLARATION OF VARIABLES", "="*3)
+    print("=" * 5, "PART 7", "=" * 5)
+    print("=" * 3, "DECLARATION OF VARIABLES", "=" * 3)
     print(" VARIABLE = name VALUE = \"Dogs\"  DATA TYPES = str(String)")
     print(" DESCRIPTION - Stores text inside quotes.")
     print(" VARIABLE = age VALUE = 20 DATA TYPES = Int(Integer)")
@@ -228,7 +238,7 @@ elif lesson == "2":
 elif lesson == "3":
     print(" WELCOME TO ARITHMETIC OPERATORS!")
     print("")
-    print("="*3, "ARITHMETIC OPERATORS", "="*3)
+    print("=" * 3, "ARITHMETIC OPERATORS", "=" * 3)
     print(" WHAT ARE ARITHMETIC OPERATORS?")
     print(" - Arithmetic operators are symbols used to perform mathematical calculations on numbers.")
     print(" They work the same way as the operators used in everyday mathematics.")
@@ -259,7 +269,7 @@ elif lesson == "3":
     print(" A -> ADDITION")
     print(" S -> SUBTRACTION")
     print("")
-    print("="*3, "BASIC INPUT AND OUTPUT", "="*3)
+    print("=" * 3, "BASIC INPUT AND OUTPUT", "=" * 3)
     print(" Accepting User Input")
     print(" - Purpose of input in programming")
     print(" Real-life analogies (e.g., asking for a user's name and responding)")
@@ -271,7 +281,7 @@ elif lesson == "3":
     print(" - Syntax: variable = input(\"Prompt message:\"")
     print(" - All input is string type by default")
     print("")
-    print("="*3, "FORMATTING OUTPUT", "="*3)
+    print("=" * 3, "FORMATTING OUTPUT", "=" * 3)
     print("")
     print(" Using comma , in print():")
     print(" PYTHON INPUT - GETTING USER INPUT AND DISPLAYING OUTPUT")
@@ -281,7 +291,7 @@ elif lesson == "3":
     print(" print(\"Name:\", name)")
     print(" print(\"Age:\", age)")
     print("")
-    print("="*3, "CONVERTING INPUT TO OTHER DATA TYPES", "="*3)
+    print("=" * 3, "CONVERTING INPUT TO OTHER DATA TYPES", "=" * 3)
     print(" B. Float input(for decimal numbers)")
     print(" PYHTON CODE:")
     print(" grade = float(input(\"Enter your grade:\")")
@@ -300,9 +310,10 @@ elif lesson == "3":
     print(" grade = float(input(\"Enter your final grade:\")")
     print(" print(f\"Student: {name}, Age: {age}, Final Grade: {grade}\"")
     print("")
-    print("="*3, "CONDITIONAL STATEMENTS", "="*3)
+    print("=" * 3, "CONDITIONAL STATEMENTS", "=" * 3)
     print(" 2. INTRODUCTION TO CONDITIONAL STATEMENTS")
-    print(" - A conditional statement allows a program to make decisions based on wether a condition is a true or false.")
+    print(
+        " - A conditional statement allows a program to make decisions based on wether a condition is a true or false.")
     print("")
     print(" 3. RELATIONAL OPERATORS")
     print(" - A relational operators, also called comparison operators, are used to comapre two values.")
@@ -325,7 +336,7 @@ elif lesson == "3":
     print(" - used when there are multiple condition to evaluate. Pyhton checks each condition from top to bottom")
     print(" and executes the first condition that is true.")
     print("")
-    print("="*3, "LOGICAL OPERATOR", "="*3)
+    print("=" * 3, "LOGICAL OPERATOR", "=" * 3)
     print(" - Used to combine or reverse conditions in a pyhton program.")
     print(" They are commonly used with if-elif-else")
     print("")
@@ -338,7 +349,7 @@ elif lesson == "3":
     print(" THE NOT OPERATOR")
     print(" - Reverse of a result condition")
     print("")
-    print("="*3, "INTRODUCTION TO ITERATION AND LOOPS", "="*3)
+    print("=" * 3, "INTRODUCTION TO ITERATION AND LOOPS", "=" * 3)
     print(" ITERATION - means repeating a process")
     print(" - iteration allows a program to perform the same task multiple times")
     print(" without loop, instruction must be written repeatedly")
@@ -365,17 +376,16 @@ elif lesson == "3":
     print("")
     print(" THANKYOU!")
 
-    
 a = input(" Just say (D) if your done! :").upper()
-    
+
 if a == "D":
-    print("="*15)
+    print("=" * 15)
     print(" Alright!, Before we end our lesson, let's have a quick warm-up review!")
-    print("="*15)
+    print("=" * 15)
 
 else:
     print(" ERROR!")
-print("")   
+print("")
 print(" TRUE OR FALSE")
 
 QNA = input(" PYHTON is easy to learn and read. great for beginners, data science, and automation : ").upper()
@@ -390,7 +400,7 @@ elif QNA == "FALSE":
 else:
     print("INVALID ANSWER! PLEASE ENTER TRUE OR FALSE.")
 print("")
-print(" A. Bill Gates")  
+print(" A. Bill Gates")
 print(" B. Guido van Rossum")
 print(" C. Mark Zuckerberg")
 QNA2 = input(" Who created pyhton? :").upper()
@@ -398,13 +408,13 @@ print("")
 
 if QNA2 == "A":
     print(" ANSWER IS: WRONG!")
-    
+
 elif QNA2 == "B":
     print(" ANSWER IS: CORRECT!")
-    
+
 elif QNA2 == "C":
     print(" ANSWER IS: WRONG!")
-    
+
 else:
     print(" INVALID ANSWER! PLEASE ENTER YOUR ANSWER!")
 print("")
@@ -416,54 +426,54 @@ print("")
 
 if QNA3 == "A":
     print(" ANSWER IS: WRONG!")
-    
+
 elif QNA3 == "B":
     print(" ANSWER IS: CORRECT!")
-    
+
 elif QNA3 == "C":
     print(" ANSWER IS: WRONG!")
-    
+
 else:
     print(" INVALID ANSWER! PLEASE ENTER YOUR ANSWER!")
-    
+
 print(" A. Java")
 print(" B. PHP")
 print(" C. PYTHON")
-    
+
 QNA4 = input(" is a widely-used programming language that was created by Guido van Rossum in 1991. :").upper()
 print("")
 
 if QNA4 == "A":
     print(" ANSWER IS: WRONG!")
-    
+
 elif QNA4 == "B":
     print(" ANSWER IS: WRONG!")
-    
+
 elif QNA4 == "C":
     print(" ANSWER IS: CORRECT!")
-    
+
 else:
     print(" INVALID ANSWER! PLEASE ENTER YOUR ANSWER!")
-    
+
 print(" A. IF-ELIF-ELSE")
 print(" B. IF-STATEMENT")
 print(" C. IF-ELSE")
-    
+
 QNA5 = input(" Exucutes a block of a code only when a condition is true :").upper()
 print("")
 
 if QNA5 == "A":
     print(" ANSWER IS: WRONG!")
-    
+
 elif QNA5 == "B":
     print(" ANSWER IS: CORRECT!")
-    
+
 elif QNA5 == "C":
     print(" ANSWER IS: WRONG!")
-    
+
 else:
     print(" INVALID ANSWER! PLEASE ENTER YOUR ANSWER!")
-    
+
 print(" THANKYOU!")
 print("")
 print(" DO YOU WANT TO CHOOSE ANOTHER LESSON? ")
@@ -471,14 +481,14 @@ print(" IF YOU WANT TO CHOOSE ANOTHER LESSON, CHOOSE 1-3 LESSON.")
 print(" IF NOT, ENTER (N).")
 
 print("")
-print("="*5, "PYTHON TUTORIAL", "="*5)
+print("=" * 5, "PYTHON TUTORIAL", "=" * 5)
 print(" 1. INTRODUCTION TO PROGRAMMING.")
 print("")
 print(" 2. BASIC SYNTAX.")
 print("")
 print(" 3. ARITHMETIC OPERATORS")
 print("")
-print("="*40)
+print("=" * 40)
 
 print(" REMEMBER, ENTER (N) IF YOU DON'T WANT TO ANOTHER LESSON!")
 lesson_2 = input("Choose a lesson: ").upper()
@@ -488,13 +498,13 @@ if lesson_2 == "N":
 
 elif lesson_2 == "1":
     print(" WELCOME TO INTRODUCTION TO PROGRAMMING!!")
-    print("="*10, "WEEK 1", "="*10)
+    print("=" * 10, "WEEK 1", "=" * 10)
     print("")
     print(" WHAT IS PROGRAMMING LANGUAGE")
     print("")
     print(" - A programming language is a special language that computers understand and use to perform tasks.")
     print("")
-    print("="*5, "COMMON PROGRAMMING LANGUAGE INCLUDE", "="*5)
+    print("=" * 5, "COMMON PROGRAMMING LANGUAGE INCLUDE", "=" * 5)
     print(" PYTHON - Easy to learn and read. great for beginners, data science, and automation.")
     print(" C/C++ - High performance and efficient. Used in system programming, games, and applications.")
     print(" PHP - Used for web development. Work well with databases and server-side scripting.")
@@ -506,10 +516,12 @@ elif lesson_2 == "1":
     print(" - Pyhton is a widely-used programming language that was created by Guido van Rossum in 1991.")
     print("")
     print(" A dutch software engineer best known for creating the Python programming language in 1991")
-    print(" He designed Python with the goal of making programming simple, readable, and easy to learn while remaining powerful")
+    print(
+        " He designed Python with the goal of making programming simple, readable, and easy to learn while remaining powerful")
     print(" enough for professional software development.")
     print(" ")
-    print(" Pyhton is a high-level, interpreted, and general-purpose programming language designed to be simple, readable, and easy to learn.")
+    print(
+        " Pyhton is a high-level, interpreted, and general-purpose programming language designed to be simple, readable, and easy to learn.")
     print(" ")
     print(" WHY LEARN PYTHON?")
     print(" 1. Simple and easy to learn - Great for beginners")
@@ -525,7 +537,7 @@ elif lesson_2 == "1":
     print(" - Jupyter Notebook / JupyterLab")
     print("")
     print(" THANKYOU!")
-    
+
 elif lesson_2 == "2":
     print(" WELCOME TO BASIC SYNTAX!")
     print("")
@@ -542,7 +554,8 @@ elif lesson_2 == "2":
     print(" name = \"John\" --> ERROR! Name ")
     print(" print(Name) --> is not same as name.")
     print("")
-    print(" 2. Indentation Unlike other programming languages, Python uses indentation (spaces) to define blocks of code.")
+    print(
+        " 2. Indentation Unlike other programming languages, Python uses indentation (spaces) to define blocks of code.")
     print(" ex:(CORRECT)")
     print(" age = 18 <-- assign value to variable")
     print(" if age >= 18: <-- CHECK CONDITION")
@@ -552,9 +565,9 @@ elif lesson_2 == "2":
     print(" if age >= 18:")
     print(" print(\"Adult\") <-- Not Indentent (outside the block)")
     print("")
-    print("="*5, " PRINTING OUTPUT", "="*5)
+    print("=" * 5, " PRINTING OUTPUT", "=" * 5)
     print("")
-    print("="*5, " PRINT STATEMENT", "="*5)
+    print("=" * 5, " PRINT STATEMENT", "=" * 5)
     print("")
     print(" - The print() function displays information on the screen.")
     print(" Syntax: print(value)")
@@ -562,14 +575,14 @@ elif lesson_2 == "2":
     print(" () – parentheses that contain the information to be displayed")
     print(" value – the text, number, variable, or expression you want to show.")
     print("")
-    print("="*5," PRINTING TEXT", "="*5)
+    print("=" * 5, " PRINTING TEXT", "=" * 5)
     print(" - Text (also called a string) must be enclosed in quotation marks.")
     print(" print(\"HELLO WORLD\") <-- CORRECT SYNTAX")
     print(" - Uses double quotes inside the parentheses.")
     print(" print(HELLO WORLD) <-- INCORRECT SYNTAX")
     print(" - Missing quotes around the text.")
     print("")
-    print("="*5, "PRINTING NUMBERS", "="*5)
+    print("=" * 5, "PRINTING NUMBERS", "=" * 5)
     print(" - You can print numbers directly without quotation marks.")
     print(" EX: (CORRECT)")
     print(" print(100) OUTPUT -> 100")
@@ -580,9 +593,10 @@ elif lesson_2 == "2":
     print(" print(\"100\") OUTPUT -> 100")
     print(" print(\"25.5\") OUTPUT -> 25.5")
     print(" String(str)")
-    print(" - Values inside quotes are text(strings). Output looks the same, but they are treated as text(strings) in pyhton.")
+    print(
+        " - Values inside quotes are text(strings). Output looks the same, but they are treated as text(strings) in pyhton.")
     print("")
-    print("="*5, "PYHTON COMMENTS", "="*5)
+    print("=" * 5, "PYHTON COMMENTS", "=" * 5)
     print(" - Comments are ignored by Python.")
     print(" - They are used to explain the code.")
     print("==", "SINGLE-LINE COMMENT", "==")
@@ -599,14 +613,15 @@ elif lesson_2 == "2":
     print(" print(\"HELLO\")")
     print(" \"\"\" - Uses triple quotes(\"\"\") Comment continous until the closing \"\"\".  ")
     print("")
-    print("="*3, "VARIABLES, CONSTANTS, AND DATA TYPES IN PYHTON", "="*3)
+    print("=" * 3, "VARIABLES, CONSTANTS, AND DATA TYPES IN PYHTON", "=" * 3)
     print(" 1. WHAT IS A VARIABLE?")
-    print(" - A variable is a named storage location used to keep data in a program. The value of a variable can change while the program is running.")
+    print(
+        " - A variable is a named storage location used to keep data in a program. The value of a variable can change while the program is running.")
     print("EX: a, b, c, name, age")
     print("     name --> VARIABLE NAME")
     print("    \"JOHN\" --> STORED VALUE")
     print("")
-    print("="*5, " VARIABLE NAMING RULES", "="*5)
+    print("=" * 5, " VARIABLE NAMING RULES", "=" * 5)
     print(" A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).")
     print("=", " SHORT NAME", "=")
     print(" - Are quick to type and often used in simple programs or inside loops")
@@ -614,7 +629,8 @@ elif lesson_2 == "2":
     print("=", "DESCRIPTIVE NAME", "=")
     print(" - Cleary explain what the variable stores. They make code easier to read and understand.")
     print(" EX: age, carname, total_volume")
-    print(" REMEMBER: Both short and descriptive names are valid. Choose the one that makes your code clear and easy to understand.")
+    print(
+        " REMEMBER: Both short and descriptive names are valid. Choose the one that makes your code clear and easy to understand.")
     print("")
     print(" - A variable name must start with a letter or the underscore character.")
     print(" - A variable name cannot start with a number.")
@@ -642,15 +658,16 @@ elif lesson_2 == "2":
     print(" #number -> Cannot use special characters like #, ., @")
     print(" num ber -> Cannot use spaces")
     print("")
-    print("="*3, "ASSIGNED VALUE TO VARIABLE", "="*3)
-    print(" - In programming, we store data in variables. We assign a value to a variable using the = (assignment operator).")
+    print("=" * 3, "ASSIGNED VALUE TO VARIABLE", "=" * 3)
+    print(
+        " - In programming, we store data in variables. We assign a value to a variable using the = (assignment operator).")
     print(" first_name -> VARIABLE NAME")
     print(" - the name we choose to represent the data (follows naming rules)")
     print(" (=) - ASSIGNMENT OPERATOR")
     print(" \"JOHN\" -> VALUE")
     print(" - The we store in the variable (can be text, number, etc.)")
     print("")
-    print("="*3, "OUTPUT VARIABLES ", "="*3)
+    print("=" * 3, "OUTPUT VARIABLES ", "=" * 3)
     print(" - The Python print() function is often used to output variables.")
     print(" EX: school = \" CLARK COLLEGE \" ")
     print(" - We stores the text CLARK COLLEGE in a variable named school.")
@@ -672,7 +689,7 @@ elif lesson_2 == "2":
     print(" print(a + b + c) -> add the values of a, b, and c and display the result")
     print(" OUTPUT: I LOVE CCST")
     print("")
-    print("="*5, "DATA TYPES", "="*5)
+    print("=" * 5, "DATA TYPES", "=" * 5)
     print(" - Data types are categories that tell Python what kind of data a variable stores.")
     print(" They determine the type of value a variable can hold and what operations can be performed on that value.")
     print(" Int (Integer numbers)")
@@ -686,7 +703,7 @@ elif lesson_2 == "2":
     print(" EACH DATA TYPE STORES DIFFERENT KIND OF VALUES ")
     print(" CHOOSING THE RIGHT TYPE HELPS YOUR PROGRAM WORK CORRECTLY!!")
     print("")
-    print("="*3, "DECLARATION OF VARIABLES", "="*3)
+    print("=" * 3, "DECLARATION OF VARIABLES", "=" * 3)
     print(" VARIABLE = name VALUE = \"Dogs\"  DATA TYPES = str(String)")
     print(" DESCRIPTION - Stores text inside quotes.")
     print(" VARIABLE = age VALUE = 20 DATA TYPES = Int(Integer)")
@@ -700,7 +717,7 @@ elif lesson_2 == "2":
 elif lesson_2 == "3":
     print(" WELCOME TO ARITHMETIC OPERATORS!")
     print("")
-    print("="*3, "ARITHMETIC OPERATORS", "="*3)
+    print("=" * 3, "ARITHMETIC OPERATORS", "=" * 3)
     print(" WHAT ARE ARITHMETIC OPERATORS?")
     print(" - Arithmetic operators are symbols used to perform mathematical calculations on numbers.")
     print(" They work the same way as the operators used in everyday mathematics.")
@@ -731,7 +748,7 @@ elif lesson_2 == "3":
     print(" A -> ADDITION")
     print(" S -> SUBTRACTION")
     print("")
-    print("="*3, "BASIC INPUT AND OUTPUT", "="*3)
+    print("=" * 3, "BASIC INPUT AND OUTPUT", "=" * 3)
     print(" Accepting User Input")
     print(" - Purpose of input in programming")
     print(" Real-life analogies (e.g., asking for a user's name and responding)")
@@ -743,7 +760,7 @@ elif lesson_2 == "3":
     print(" - Syntax: variable = input(\"Prompt message:\"")
     print(" - All input is string type by default")
     print("")
-    print("="*3, "FORMATTING OUTPUT", "="*3)
+    print("=" * 3, "FORMATTING OUTPUT", "=" * 3)
     print("")
     print(" Using comma , in print():")
     print(" PYTHON INPUT - GETTING USER INPUT AND DISPLAYING OUTPUT")
@@ -753,7 +770,7 @@ elif lesson_2 == "3":
     print(" print(\"Name:\", name)")
     print(" print(\"Age:\", age)")
     print("")
-    print("="*3, "CONVERTING INPUT TO OTHER DATA TYPES", "="*3)
+    print("=" * 3, "CONVERTING INPUT TO OTHER DATA TYPES", "=" * 3)
     print(" B. Float input(for decimal numbers)")
     print(" PYHTON CODE:")
     print(" grade = float(input(\"Enter your grade:\")")
@@ -772,9 +789,10 @@ elif lesson_2 == "3":
     print(" grade = float(input(\"Enter your final grade:\")")
     print(" print(f\"Student: {name}, Age: {age}, Final Grade: {grade}\"")
     print("")
-    print("="*3, "CONDITIONAL STATEMENTS", "="*3)
+    print("=" * 3, "CONDITIONAL STATEMENTS", "=" * 3)
     print(" 2. INTRODUCTION TO CONDITIONAL STATEMENTS")
-    print(" - A conditional statement allows a program to make decisions based on wether a condition is a true or false.")
+    print(
+        " - A conditional statement allows a program to make decisions based on wether a condition is a true or false.")
     print("")
     print(" 3. RELATIONAL OPERATORS")
     print(" - A relational operators, also called comparison operators, are used to comapre two values.")
@@ -797,7 +815,7 @@ elif lesson_2 == "3":
     print(" - used when there are multiple condition to evaluate. Pyhton checks each condition from top to bottom")
     print(" and executes the first condition that is true.")
     print("")
-    print("="*3, "LOGICAL OPERATOR", "="*3)
+    print("=" * 3, "LOGICAL OPERATOR", "=" * 3)
     print(" - Used to combine or reverse conditions in a pyhton program.")
     print(" They are commonly used with if-elif-else")
     print("")
@@ -810,7 +828,7 @@ elif lesson_2 == "3":
     print(" THE NOT OPERATOR")
     print(" - Reverse of a result condition")
     print("")
-    print("="*3, "INTRODUCTION TO ITERATION AND LOOPS", "="*3)
+    print("=" * 3, "INTRODUCTION TO ITERATION AND LOOPS", "=" * 3)
     print(" ITERATION - means repeating a process")
     print(" - iteration allows a program to perform the same task multiple times")
     print(" without loop, instruction must be written repeatedly")
@@ -835,7 +853,7 @@ elif lesson_2 == "3":
     print("  count += 1")
     print("")
     print("")
-    print(" THANKYOU!")   
+    print(" THANKYOU!")
 
 else:
     print(" INVALID!")
