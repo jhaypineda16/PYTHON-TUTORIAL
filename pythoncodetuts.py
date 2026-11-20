@@ -177,8 +177,7 @@ elif lesson == "2":
     print(" num ber -> Cannot use spaces")
     print("")
     print("=" * 3, "ASSIGNED VALUE TO VARIABLE", "=" * 3)
-    print(
-        " - In programming, we store data in variables. We assign a value to a variable using the = (assignment operator).")
+    print(" - In programming, we store data in variables. We assign a value to a variable using the = (assignment operator).")
     print(" first_name -> VARIABLE NAME")
     print(" - the name we choose to represent the data (follows naming rules)")
     print(" (=) - ASSIGNMENT OPERATOR")
@@ -312,8 +311,7 @@ elif lesson == "3":
     print("")
     print("=" * 3, "CONDITIONAL STATEMENTS", "=" * 3)
     print(" 2. INTRODUCTION TO CONDITIONAL STATEMENTS")
-    print(
-        " - A conditional statement allows a program to make decisions based on wether a condition is a true or false.")
+    print(" - A conditional statement allows a program to make decisions based on wether a condition is a true or false.")
     print("")
     print(" 3. RELATIONAL OPERATORS")
     print(" - A relational operators, also called comparison operators, are used to comapre two values.")
@@ -516,12 +514,10 @@ elif lesson_2 == "1":
     print(" - Pyhton is a widely-used programming language that was created by Guido van Rossum in 1991.")
     print("")
     print(" A dutch software engineer best known for creating the Python programming language in 1991")
-    print(
-        " He designed Python with the goal of making programming simple, readable, and easy to learn while remaining powerful")
+    print(" He designed Python with the goal of making programming simple, readable, and easy to learn while remaining powerful")
     print(" enough for professional software development.")
     print(" ")
-    print(
-        " Pyhton is a high-level, interpreted, and general-purpose programming language designed to be simple, readable, and easy to learn.")
+    print(" Pyhton is a high-level, interpreted, and general-purpose programming language designed to be simple, readable, and easy to learn.")
     print(" ")
     print(" WHY LEARN PYTHON?")
     print(" 1. Simple and easy to learn - Great for beginners")
@@ -554,8 +550,7 @@ elif lesson_2 == "2":
     print(" name = \"John\" --> ERROR! Name ")
     print(" print(Name) --> is not same as name.")
     print("")
-    print(
-        " 2. Indentation Unlike other programming languages, Python uses indentation (spaces) to define blocks of code.")
+    print(" 2. Indentation Unlike other programming languages, Python uses indentation (spaces) to define blocks of code.")
     print(" ex:(CORRECT)")
     print(" age = 18 <-- assign value to variable")
     print(" if age >= 18: <-- CHECK CONDITION")
@@ -593,8 +588,7 @@ elif lesson_2 == "2":
     print(" print(\"100\") OUTPUT -> 100")
     print(" print(\"25.5\") OUTPUT -> 25.5")
     print(" String(str)")
-    print(
-        " - Values inside quotes are text(strings). Output looks the same, but they are treated as text(strings) in pyhton.")
+    print(" - Values inside quotes are text(strings). Output looks the same, but they are treated as text(strings) in pyhton.")
     print("")
     print("=" * 5, "PYHTON COMMENTS", "=" * 5)
     print(" - Comments are ignored by Python.")
@@ -615,8 +609,7 @@ elif lesson_2 == "2":
     print("")
     print("=" * 3, "VARIABLES, CONSTANTS, AND DATA TYPES IN PYHTON", "=" * 3)
     print(" 1. WHAT IS A VARIABLE?")
-    print(
-        " - A variable is a named storage location used to keep data in a program. The value of a variable can change while the program is running.")
+    print(" - A variable is a named storage location used to keep data in a program. The value of a variable can change while the program is running.")
     print("EX: a, b, c, name, age")
     print("     name --> VARIABLE NAME")
     print("    \"JOHN\" --> STORED VALUE")
@@ -629,8 +622,7 @@ elif lesson_2 == "2":
     print("=", "DESCRIPTIVE NAME", "=")
     print(" - Cleary explain what the variable stores. They make code easier to read and understand.")
     print(" EX: age, carname, total_volume")
-    print(
-        " REMEMBER: Both short and descriptive names are valid. Choose the one that makes your code clear and easy to understand.")
+    print(" REMEMBER: Both short and descriptive names are valid. Choose the one that makes your code clear and easy to understand.")
     print("")
     print(" - A variable name must start with a letter or the underscore character.")
     print(" - A variable name cannot start with a number.")
@@ -659,8 +651,7 @@ elif lesson_2 == "2":
     print(" num ber -> Cannot use spaces")
     print("")
     print("=" * 3, "ASSIGNED VALUE TO VARIABLE", "=" * 3)
-    print(
-        " - In programming, we store data in variables. We assign a value to a variable using the = (assignment operator).")
+    print(" - In programming, we store data in variables. We assign a value to a variable using the = (assignment operator).")
     print(" first_name -> VARIABLE NAME")
     print(" - the name we choose to represent the data (follows naming rules)")
     print(" (=) - ASSIGNMENT OPERATOR")
@@ -791,8 +782,7 @@ elif lesson_2 == "3":
     print("")
     print("=" * 3, "CONDITIONAL STATEMENTS", "=" * 3)
     print(" 2. INTRODUCTION TO CONDITIONAL STATEMENTS")
-    print(
-        " - A conditional statement allows a program to make decisions based on wether a condition is a true or false.")
+    print(" - A conditional statement allows a program to make decisions based on wether a condition is a true or false.")
     print("")
     print(" 3. RELATIONAL OPERATORS")
     print(" - A relational operators, also called comparison operators, are used to comapre two values.")
