@@ -481,7 +481,7 @@ print("")
 print("="*40)
 
 print(" REMEMBER, ENTER (N) IF YOU DON'T WANT TO ANOTHER LESSON!")
-lesson_2 = input("Choose a lesson: ")
+lesson_2 = input("Choose a lesson: ").upper()
 
 if lesson_2 == "N":
     print(" THANKYOU FOR READING!")
