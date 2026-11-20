@@ -1,5 +1,6 @@
 print("")
-print("  WELCOME TO PYTHON TUTORIAL!")
+name = input(" Enter your name: ")
+print("  WELCOME TO PYTHON TUTORIAL!", name)
 print("  Python is easy to learn - You will enjoy it!")
 print("")
 print("="*5, "PYTHON TUTORIAL", "="*5)
@@ -479,6 +480,7 @@ print(" 3. ARITHMETIC OPERATORS")
 print("")
 print("="*40)
 
+print(" REMEMBER, ENTER (N) IF YOU DON'T WANT TO ANOTHER LESSON!")
 lesson_2 = input("Choose a lesson: ")
 
 if lesson_2 == "N":
@@ -836,4 +838,5 @@ elif lesson_2 == "3":
     print(" THANKYOU!")   
 
 else:
-    print(" TAHNKYOU!!")
+    print(" INVALID!")
+    print(" THANKYOU ")
